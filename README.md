@@ -18,9 +18,6 @@
 - **Hệ quản trị cơ sở dữ liệu:** SQL Server 2019
 - **Thư viện/Framework hỗ trợ:**
   - Entity Framework cho truy xuất dữ liệu
-  - Bootstrap cho giao diện web
-  - Chart.js cho báo cáo phân tích
-
 ---
 
 ## Chi Tiết Đề Tài
@@ -28,21 +25,18 @@
 ### 1. Ứng Dụng Quản Lý Bán Hàng - WinForms
 #### Chức Năng Chính:
 - **Quản Lý Khách Hàng:**
-  - Thêm, sửa, xoá thông tin khách hàng.
-  - Xem lịch sử mua hàng và phân loại khách hàng (VIP, thân thiết).
-  
 - **Quản Lý Nhân Viên:**
-  - Quản lý thông tin nhân viên, lịch làm việc và lương bổng.
-  - Đánh giá hiệu suất làm việc dựa trên doanh số bán hàng.
-
 - **Quản Lý Sản Phẩm:**
-  - Quản lý các mặt hàng giày dép trong kho (thêm, sửa, xoá sản phẩm).
-  - Theo dõi số lượng hàng tồn kho, cảnh báo khi gần hết hàng.
-
 - **Báo Cáo Doanh Thu:**
-  - Xem báo cáo doanh thu theo từng tháng/quý/năm.
-  - Xuất báo cáo doanh thu ra file Excel hoặc PDF.
-  - Biểu đồ doanh thu trực quan.
+#### Bảng phân công:
+|STT  |Nhiêm vụ       |Thành viên       |
+| --- | ------------- | --------------- |
+|1|Quản lý khách hàng||
+|2|Quản lý sản phẩm||
+|3|Báo cáo doanh thu||
+|4|Quản lý nhân viên||
+|5|Xử lý đăng nhập, đăng xuất||
+|6|Thiết kế database||
 
 #### Giao Diện:
 - **WinForms:** Giao diện trực quan, dễ sử dụng cho người quản lý.
@@ -52,37 +46,30 @@
 
 ### 2. Website Bán Hàng
 #### Chức Năng Chính:
-- **Quản Lý Sản Phẩm Trên Web:**
-  - Hiển thị các mặt hàng giày dép với thông tin chi tiết về kích thước, màu sắc, và giá.
-  - Cho phép khách hàng xem và mua hàng trực tuyến.
-
+- **Hiển thị Sản Phẩm Trên Web:**
 - **Quản Lý Đơn Hàng:**
-  - Tạo đơn hàng, quản lý đơn hàng (theo dõi trạng thái đơn hàng: đang xử lý, đã giao).
-  - Tự động cập nhật trạng thái hàng tồn kho khi có giao dịch.
-
 - **Đăng Ký Và Đăng Nhập:**
-  - Khách hàng có thể đăng ký tài khoản và đăng nhập để quản lý đơn hàng của mình.
-  - Tính năng khôi phục mật khẩu qua email.
+- **Bán hàng online**
+
+  #### Bảng phân công:
+|STT  |Nhiêm vụ       |Thành viên       |
+| --- | ------------- | --------------- |
+|1|Thiết kế giao diện||
+|2|Xử lý đơn hàng||
+|3|Đăng ký và đăng nhập, quên mật khẩu||
+|4|Đặt hàng||
 
 #### Giao Diện:
-- **Responsive Web Design:** Giao diện website tương thích với mọi thiết bị (desktop, tablet, mobile).
+- **Responsive Web Design:** Giao diện website(desktop).
 - **Tích Hợp API:** Đồng bộ dữ liệu sản phẩm và đơn hàng giữa website và ứng dụng WinForms.
-
 ---
 
 ## Công nghệ trí tuệ nhân tạo được dùng
-- **Google Dialogflow (Chatbot)**
-
+- **Azure Machine Learning (dự đoán doanh số)**
 ---
 
 ## Yêu Cầu Hệ Thống
 - **WinForms:** .NET Framework 4.5 trở lên, Windows 10 hoặc cao hơn
 - **Web:** ASP.NET MVC, Hosting hỗ trợ .NET, SQL Server
-
-
 ---
 
-## Liên Hệ
-- **Email:** leyen14032003@gmail.com, hoangquan12092003@gmail.com
-- **Số điện thoại:** 0339202042
-- **GitHub:** [https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay](https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay)
