@@ -1,95 +1,88 @@
-# Hệ Thống Quản Lý Cửa Hàng Giày
-## Danh Sách Thành Viên Nhóm
+# Đề Tài: Hệ Thống Quản Lý Cửa Hàng Giày
 
-| STT | Mã Sinh Viên | Họ Tên          | Lớp          | Vai Trò      |
-| --- | ------------ | --------------- | ------------ | ------------ |
-| 1   | 2001216333     | Lê Thanh Yên    | 12DHTH03    | Nhóm trưởng |
-| 2   | 2001216074     | Hoàng Đức Quân      | 12DHTH02    | Thành viên |
+## Thành Viên Nhóm
+
+| STT | Mã Sinh Viên  | Họ Tên          | Lớp         | Vai Trò       |
+| --- | ------------- | --------------- | ----------- | ------------- |
+| 1   | 2001216333    | Lê Thanh Yên     | 12DHTH03    | Nhóm trưởng   |
+| 2   | 2001216074    | Hoàng Đức Quân   | 12DHTH02    | Thành viên    |
+
+---
+
+## Công Nghệ Sử Dụng
+
+- **Ngôn ngữ lập trình:** C#, HTML, CSS, JavaScript
+- **Frameworks:** .NET Framework (WinForms), ASP.NET MVC(Web)
+- **Cơ sở dữ liệu:** SQL Server cho cả WinForms và Web
+- **Công cụ phát triển:** Visual Studio, Visual Studio Code
+- **Hệ quản trị cơ sở dữ liệu:** SQL Server 2019
+- **Thư viện/Framework hỗ trợ:**
+  - Entity Framework cho truy xuất dữ liệu
+  - Bootstrap cho giao diện web
+  - Chart.js cho báo cáo phân tích
+
+---
+
+## Chi Tiết Đề Tài
+
+### 1. Ứng Dụng Quản Lý Bán Hàng - WinForms
+#### Chức Năng Chính:
+- **Quản Lý Khách Hàng:**
+  - Thêm, sửa, xoá thông tin khách hàng.
+  - Xem lịch sử mua hàng và phân loại khách hàng (VIP, thân thiết).
+  
+- **Quản Lý Nhân Viên:**
+  - Quản lý thông tin nhân viên, lịch làm việc và lương bổng.
+  - Đánh giá hiệu suất làm việc dựa trên doanh số bán hàng.
+
+- **Quản Lý Sản Phẩm:**
+  - Quản lý các mặt hàng giày dép trong kho (thêm, sửa, xoá sản phẩm).
+  - Theo dõi số lượng hàng tồn kho, cảnh báo khi gần hết hàng.
+
+- **Báo Cáo Doanh Thu:**
+  - Xem báo cáo doanh thu theo từng tháng/quý/năm.
+  - Xuất báo cáo doanh thu ra file Excel hoặc PDF.
+  - Biểu đồ doanh thu trực quan.
+
+#### Giao Diện:
+- **WinForms:** Giao diện trực quan, dễ sử dụng cho người quản lý.
+- **Báo cáo:** Giao diện hiển thị báo cáo kèm biểu đồ giúp phân tích doanh thu và tình trạng kho hàng.
+
+---
+
+### 2. Website Bán Hàng
+#### Chức Năng Chính:
+- **Quản Lý Sản Phẩm Trên Web:**
+  - Hiển thị các mặt hàng giày dép với thông tin chi tiết về kích thước, màu sắc, và giá.
+  - Cho phép khách hàng xem và mua hàng trực tuyến.
+
+- **Quản Lý Đơn Hàng:**
+  - Tạo đơn hàng, quản lý đơn hàng (theo dõi trạng thái đơn hàng: đang xử lý, đã giao).
+  - Tự động cập nhật trạng thái hàng tồn kho khi có giao dịch.
+
+- **Đăng Ký Và Đăng Nhập:**
+  - Khách hàng có thể đăng ký tài khoản và đăng nhập để quản lý đơn hàng của mình.
+  - Tính năng khôi phục mật khẩu qua email.
+
+#### Giao Diện:
+- **Responsive Web Design:** Giao diện website tương thích với mọi thiết bị (desktop, tablet, mobile).
+- **Tích Hợp API:** Đồng bộ dữ liệu sản phẩm và đơn hàng giữa website và ứng dụng WinForms.
+
+---
+
+## Công nghệ trí tuệ nhân tạo được dùng
+- **Google Dialogflow (Chatbot)**
+
+---
+
+## Yêu Cầu Hệ Thống
+- **WinForms:** .NET Framework 4.5 trở lên, Windows 10 hoặc cao hơn
+- **Web:** ASP.NET MVC, Hosting hỗ trợ .NET, SQL Server
 
 
-## Mục Lục
-1. [Giới Thiệu](#giới-thiệu)
-2. [Chức Năng Chính](#chức-năng-chính)
-    - [Quản Lý Khách Hàng](#quản-lý-khách-hàng)
-    - [Quản Lý Nhân Viên](#quản-lý-nhân-viên)
-    - [Quản Lý Hàng Tồn Kho](#quản-lý-hàng-tồn-kho)
-    - [Quản Lý Doanh Số Bán Hàng](#quản-lý-doanh-số-bán-hàng)
-    - [Quản Lý Nhà Cung Cấp](#quản-lý-nhà-cung-cấp)
-    - [Báo Cáo Và Phân Tích](#báo-cáo-và-phân-tích)
-    - [Tích Hợp Hệ Thống](#tích-hợp-hệ-thống)
-3. [Cài Đặt](#cài-đặt)
-4. [Sử Dụng](#sử-dụng)
-5. [Báo Cáo](#báo-cáo)
-6. [Liên Hệ](#liên-hệ)
-
-## Giới Thiệu
-Hệ thống quản lý cửa hàng giày là một ứng dụng quản lý toàn diện giúp theo dõi thông tin khách hàng, nhân viên, hàng tồn kho, doanh số bán hàng, và nhà cung cấp. Hệ thống được phát triển nhằm tối ưu hóa quá trình quản lý và đưa ra phân tích dữ liệu hiệu quả.
-
-## Chức Năng Chính
-
-### Quản Lý Khách Hàng
-- Thêm, xoá, sửa thông tin khách hàng.
-- Xem lịch sử mua hàng chi tiết.
-- Phân loại khách hàng theo mức độ ưu tiên: VIP, tiềm năng, thân thiết, mới.
-- Tự động chăm sóc khách hàng với các chương trình khuyến mãi và ưu đãi.
-
-### Quản Lý Nhân Viên
-- Quản lý thông tin cá nhân, lịch làm việc, và mức lương của nhân viên.
-- Đánh giá hiệu suất dựa trên doanh số bán hàng và các chỉ số công việc.
-- Tự động hoá việc xếp lịch làm việc cho nhân viên.
-
-### Quản Lý Hàng Tồn Kho
-- Theo dõi trạng thái hàng hoá (còn hàng/hết hàng), số lượng, kích cỡ, và màu sắc.
-- Hỗ trợ kiểm kê kho định kỳ và cập nhật số liệu tồn kho.
-- Cảnh báo khi hàng tồn kho sắp hết.
-
-### Quản Lý Doanh Số Bán Hàng
-- Quản lý giao dịch bán hàng, tính toán doanh thu theo từng khoảng thời gian.
-- Cung cấp báo cáo doanh số bán hàng chi tiết và biểu đồ phân tích doanh số.
-
-### Quản Lý Nhà Cung Cấp
-- Lưu trữ và quản lý thông tin nhà cung cấp: tên, địa chỉ, sản phẩm cung cấp.
-- Quản lý các giao dịch nhập hàng và theo dõi lịch sử giao dịch.
-- Đánh giá hiệu suất của nhà cung cấp dựa trên giao hàng và chất lượng sản phẩm.
-
-### Báo Cáo Và Phân Tích
-- Tạo báo cáo tổng hợp về tình hình kinh doanh, bao gồm báo cáo tài chính, hàng tồn kho, và nhân sự.
-- Xuất báo cáo ra các định dạng như Excel, PDF, hoặc in ấn trực tiếp.
-
-### Tích Hợp Hệ Thống
-- Kết nối với website bán hàng thông qua API, đồng bộ hóa dữ liệu khách hàng, đơn hàng và hàng tồn kho.
-
-## Cài Đặt
-### Yêu Cầu Hệ Thống
-- .NET Framework 4.8 trở lên
-- SQL Server 2019
-- Windows 10 hoặc phiên bản cao hơn
-
-### Các Bước Cài Đặt
-1. Clone repo từ GitHub:
-    ```bash
-   [https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay.git]
-    ```
-2. Mở dự án trong Visual Studio.
-3. Thiết lập chuỗi kết nối đến SQL Server trong file `appsettings.json`.
-4. Khởi tạo cơ sở dữ liệu:
-    ```bash
-    Update-Database
-    ```
-5. Chạy dự án trên Visual Studio.
-
-## Sử Dụng
-1. Đăng nhập vào hệ thống với tài khoản quản trị viên.
-2. Truy cập vào từng mục trong hệ thống để quản lý thông tin khách hàng, nhân viên, hàng tồn kho, doanh số và nhà cung cấp.
-3. Sử dụng chức năng báo cáo để xem chi tiết tình hình kinh doanh và đưa ra phân tích.
-4. Kết nối với website bán hàng để đồng bộ hóa dữ liệu.
-
-## Báo Cáo
-- Các báo cáo về doanh thu, tồn kho, và hiệu suất nhân viên có thể được xuất ra file PDF hoặc Excel.
-- Biểu đồ phân tích xu hướng bán hàng và hiệu suất có thể xem trực tiếp trên dashboard của ứng dụng.
+---
 
 ## Liên Hệ
-- **Email:**
-- **Phone:**
-- **GitHub:**
-
+- **Email:** example@email.com
+- **Số điện thoại:** 0123456789
+- **GitHub:** [https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay](https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay)
