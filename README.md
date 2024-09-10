@@ -68,7 +68,7 @@ Hệ thống quản lý cửa hàng giày là một ứng dụng quản lý toà
 ### Các Bước Cài Đặt
 1. Clone repo từ GitHub:
     ```bash
-  https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay.git
+   [https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay.git](https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay.git)
     ```
 2. Mở dự án trong Visual Studio.
 3. Thiết lập chuỗi kết nối đến SQL Server trong file `appsettings.json`.
