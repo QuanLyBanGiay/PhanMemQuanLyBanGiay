@@ -83,6 +83,6 @@
 ---
 
 ## Liên Hệ
-- **Email:** example@email.com
-- **Số điện thoại:** 0123456789
+- **Email:** leyen14032003@gmail.com, hoangquan12092003@gmail.com
+- **Số điện thoại:** 0339202042
 - **GitHub:** [https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay](https://github.com/QuanLyBanGiay/PhanMenQuanLyBanGiay)
