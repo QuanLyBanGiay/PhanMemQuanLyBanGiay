@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlHelperLibrary", "..\SqlH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlsLibrary", "..\CustomControlsLIbrary\CustomControlsLibrary.csproj", "{F8C906C1-2EA3-4802-B4FB-BBB73E8157B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginControlLibrary", "..\LoginControlLibrary\LoginControlLibrary.csproj", "{DE14483F-7639-4F06-9059-A9263CC4C4D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F8C906C1-2EA3-4802-B4FB-BBB73E8157B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C906C1-2EA3-4802-B4FB-BBB73E8157B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C906C1-2EA3-4802-B4FB-BBB73E8157B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE14483F-7639-4F06-9059-A9263CC4C4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE14483F-7639-4F06-9059-A9263CC4C4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE14483F-7639-4F06-9059-A9263CC4C4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE14483F-7639-4F06-9059-A9263CC4C4D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

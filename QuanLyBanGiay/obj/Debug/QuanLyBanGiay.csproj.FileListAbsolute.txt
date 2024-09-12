@@ -7,11 +7,12 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.csproj.CoreCompileInputs.cache
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.exe
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.pdb
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\CustomControlsLIbrary.dll
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\CustomControlsLIbrary.pdb
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.Form1.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBa.AE8BC89B.Up2Date
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\LoginControlLibrary.dll
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\SqlHelperLibrary.dll
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\LoginControlLibrary.pdb
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\SqlHelperLibrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.FormLogin.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\obj\Debug\QuanLyBanGiay.FormRegister.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\CustomControlsLIbrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\QuanLyBanGiay\bin\Debug\CustomControlsLIbrary.pdb
