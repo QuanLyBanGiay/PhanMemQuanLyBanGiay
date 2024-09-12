@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\QuanLyBanGiay\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EDD340A3-8426-42CF-909C-C836468C51C9}|QuanLyBanGiay.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\quanlybangiay\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EDD340A3-8426-42CF-909C-C836468C51C9}|QuanLyBanGiay.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,23 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\QuanLyBanGiay\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\QuanLyBanGiay\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T07:31:37.299Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
