@@ -14,6 +14,12 @@ namespace CustomControlsLibrary
         {
             this.Font = new Font("Times New Roman", 13);
             this.KeyPress += UserTextBox_KeyPress;
+            this.Validating += TextBoxLogin_Validating;
+        }
+
+        private void TextBoxLogin_Validating(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            
         }
 
         private void UserTextBox_KeyPress(object sender, KeyPressEventArgs e)

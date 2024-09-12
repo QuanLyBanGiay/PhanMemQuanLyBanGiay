@@ -49,10 +49,16 @@
     <Compile Include="LabelDetail.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="TextBoxEmail.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="TextBoxLogin.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextBoxNumberic.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="TextBoxPassword.cs">
       <SubType>Component</SubType>
     </Compile>

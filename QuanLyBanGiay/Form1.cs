@@ -12,11 +12,9 @@ namespace QuanLyBanGiay
 {
     public partial class Form1 : Form
     {
-        string conn = "Data Source=LAPTOP\\LEYEN1;Initial Catalog=QUANLYBANGIAY;Integrated Security=True;Encrypt=False";
         public Form1()
         {
             InitializeComponent();
-            
         }
     }
 }

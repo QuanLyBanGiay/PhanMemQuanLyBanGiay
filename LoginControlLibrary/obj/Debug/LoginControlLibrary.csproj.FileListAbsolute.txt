@@ -1,0 +1,14 @@
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\LoginControlLibrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\LoginControlLibrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\CustomControlsLIbrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\SqlHelperLibrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\CustomControlsLIbrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\bin\Debug\SqlHelperLibrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.csproj.AssemblyReference.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.LoginContol.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.csproj.GenerateResource.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.csproj.CoreCompileInputs.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginCon.4A2982A0.Up2Date
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\LoginControlLibrary\obj\Debug\LoginControlLibrary.RegisterControl.resources
