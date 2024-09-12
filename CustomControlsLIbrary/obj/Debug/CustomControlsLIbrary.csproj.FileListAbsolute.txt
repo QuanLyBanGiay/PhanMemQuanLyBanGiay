@@ -1,0 +1,6 @@
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\bin\Debug\CustomControlsLIbrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\bin\Debug\CustomControlsLIbrary.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\obj\Debug\CustomControlsLIbrary.csproj.AssemblyReference.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\obj\Debug\CustomControlsLIbrary.csproj.CoreCompileInputs.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\obj\Debug\CustomControlsLIbrary.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\CustomControlsLIbrary\obj\Debug\CustomControlsLIbrary.pdb
