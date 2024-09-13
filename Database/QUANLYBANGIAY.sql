@@ -212,6 +212,54 @@ BEGIN
 END;
 GO
 
+CREATE TRIGGER trg_UpdateSoLuongGiay_AfterInsertPN
+ON CHITIETPN
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Cập nhật số lượng giày trong bảng GIAY sau khi có phiếu nhập mới
+    UPDATE GIAY
+    SET SoLuong = SoLuong + inserted.SoLuong
+    FROM GIAY
+    INNER JOIN inserted ON GIAY.MaGiay = inserted.MaGiay;
+END;
+GO
+
+CREATE TRIGGER trg_UpdateSoLuongGiay_AfterUpdatePN
+ON CHITIETPN
+AFTER UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @MaGiay INT, @OldSoLuong INT, @NewSoLuong INT;
+
+    -- Duyệt qua từng hàng bị cập nhật trong bảng chi tiết phiếu nhập
+    DECLARE cur CURSOR FOR
+    SELECT i.MaGiay, d.SoLuong AS OldSoLuong, i.SoLuong AS NewSoLuong
+    FROM inserted i
+    INNER JOIN deleted d ON i.MaGiay = d.MaGiay;
+
+    OPEN cur;
+    FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Cập nhật số lượng giày trong kho
+        UPDATE GIAY
+        SET SoLuong = SoLuong - @OldSoLuong + @NewSoLuong
+        WHERE MaGiay = @MaGiay;
+
+        FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
+    END;
+
+    CLOSE cur;
+    DEALLOCATE cur;
+END;
+GO
+
 CREATE TRIGGER trg_UpdateTongTienHD_MaKM
 ON HOADON
 AFTER UPDATE
@@ -242,6 +290,71 @@ BEGIN
         )
         WHERE HOADON.MaHD = @MaHD;
     END
+END;
+GO
+
+CREATE TRIGGER trg_UpdateSoLuongGiay_AfterInsertHD
+ON CHITIETHD
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @MaGiay INT, @SoLuong INT;
+
+    -- Duyệt qua từng hàng vừa được thêm vào bảng chi tiết hóa đơn
+    DECLARE cur CURSOR FOR
+    SELECT MaGiay, SoLuong
+    FROM inserted;
+
+    OPEN cur;
+    FETCH NEXT FROM cur INTO @MaGiay, @SoLuong;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Cập nhật số lượng giày trong kho sau khi hóa đơn được thanh toán
+        UPDATE GIAY
+        SET SoLuong = SoLuong - @SoLuong
+        WHERE MaGiay = @MaGiay;
+
+        FETCH NEXT FROM cur INTO @MaGiay, @SoLuong;
+    END;
+
+    CLOSE cur;
+    DEALLOCATE cur;
+END;
+GO
+
+CREATE TRIGGER trg_UpdateSoLuongGiay_AfterUpdateHD
+ON CHITIETHD
+AFTER UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @MaGiay INT, @OldSoLuong INT, @NewSoLuong INT;
+
+    -- Duyệt qua từng hàng được cập nhật
+    DECLARE cur CURSOR FOR
+    SELECT i.MaGiay, d.SoLuong AS OldSoLuong, i.SoLuong AS NewSoLuong
+    FROM inserted i
+    JOIN deleted d ON i.MaHD = d.MaHD AND i.MaGiay = d.MaGiay;
+
+    OPEN cur;
+    FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Cập nhật lại số lượng giày trong kho sau khi hóa đơn được cập nhật
+        UPDATE GIAY
+        SET SoLuong = SoLuong + (@OldSoLuong - @NewSoLuong)
+        WHERE MaGiay = @MaGiay;
+
+        FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
+    END;
+
+    CLOSE cur;
+    DEALLOCATE cur;
 END;
 GO
 
