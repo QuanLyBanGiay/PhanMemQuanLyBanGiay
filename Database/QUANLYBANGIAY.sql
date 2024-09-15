@@ -4,6 +4,14 @@ CREATE DATABASE QUANLYBANGIAY
 GO
 USE QUANLYBANGIAY
 GO
+
+CREATE TABLE LOAIKHACHHANG
+(
+    MaLoaiKH INT IDENTITY(1,1) PRIMARY KEY,
+    TenLoaiKH NVARCHAR(225) NOT NULL
+)
+GO
+
 CREATE TABLE KHACHHANG
 (
 	MaKH INT IDENTITY(1,1),
@@ -16,6 +24,14 @@ CREATE TABLE KHACHHANG
 	PRIMARY KEY(MaKH)
 )
 GO
+
+ALTER TABLE KHACHHANG
+ADD MaLoaiKH INT;
+
+ALTER TABLE KHACHHANG
+ADD FOREIGN KEY (MaLoaiKH) REFERENCES LOAIKHACHHANG(MaLoaiKH);
+GO
+
 
 CREATE TABLE KHUYENMAI
 (
@@ -82,11 +98,29 @@ CREATE TABLE NHANVIEN
 )
 GO
 
+CREATE TABLE PHANQUYEN
+(
+    MaQuyen INT IDENTITY(1,1) PRIMARY KEY,
+    TenQuyen NVARCHAR(225) NOT NULL
+)
+GO
+
+CREATE TABLE NHANVIEN_QUYEN
+(
+    MaNV INT,
+    MaQuyen INT,
+    PRIMARY KEY (MaNV, MaQuyen),
+    FOREIGN KEY (MaNV) REFERENCES NHANVIEN(MaNV),
+    FOREIGN KEY (MaQuyen) REFERENCES PHANQUYEN(MaQuyen)
+)
+GO
+
 CREATE TABLE TAIKHOANNV
 (
 	MaNV int primary key,
 	TenDN nvarchar(225),
 	MatKhau nvarchar(225),
+	DaKhoa BIT DEFAULT 0,
 	foreign key (MaNV) references NHANVIEN(MaNV)
 )
 GO
@@ -135,6 +169,16 @@ CREATE TABLE GIAY
 	foreign key (MaXX) references XUATXU(MaXX),
 	foreign key (MaMau) references MAUSAC(MaMau),
 	foreign key (MaTH) references THUONGHIEU(MaTH)
+)
+GO
+
+CREATE TABLE KIEMKE
+(
+    MaKK INT IDENTITY(1,1) PRIMARY KEY,
+    NgayKiemKe DATE,
+    MaGiay INT,
+    SoLuongThucTe INT,
+    FOREIGN KEY (MaGiay) REFERENCES GIAY(MaGiay)
 )
 GO
 
@@ -212,54 +256,6 @@ BEGIN
 END;
 GO
 
-CREATE TRIGGER trg_UpdateSoLuongGiay_AfterInsertPN
-ON CHITIETPN
-AFTER INSERT
-AS
-BEGIN
-    SET NOCOUNT ON;
-
-    -- Cập nhật số lượng giày trong bảng GIAY sau khi có phiếu nhập mới
-    UPDATE GIAY
-    SET SoLuong = SoLuong + inserted.SoLuong
-    FROM GIAY
-    INNER JOIN inserted ON GIAY.MaGiay = inserted.MaGiay;
-END;
-GO
-
-CREATE TRIGGER trg_UpdateSoLuongGiay_AfterUpdatePN
-ON CHITIETPN
-AFTER UPDATE
-AS
-BEGIN
-    SET NOCOUNT ON;
-
-    DECLARE @MaGiay INT, @OldSoLuong INT, @NewSoLuong INT;
-
-    -- Duyệt qua từng hàng bị cập nhật trong bảng chi tiết phiếu nhập
-    DECLARE cur CURSOR FOR
-    SELECT i.MaGiay, d.SoLuong AS OldSoLuong, i.SoLuong AS NewSoLuong
-    FROM inserted i
-    INNER JOIN deleted d ON i.MaGiay = d.MaGiay;
-
-    OPEN cur;
-    FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
-
-    WHILE @@FETCH_STATUS = 0
-    BEGIN
-        -- Cập nhật số lượng giày trong kho
-        UPDATE GIAY
-        SET SoLuong = SoLuong - @OldSoLuong + @NewSoLuong
-        WHERE MaGiay = @MaGiay;
-
-        FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
-    END;
-
-    CLOSE cur;
-    DEALLOCATE cur;
-END;
-GO
-
 CREATE TRIGGER trg_UpdateTongTienHD_MaKM
 ON HOADON
 AFTER UPDATE
@@ -293,86 +289,25 @@ BEGIN
 END;
 GO
 
-CREATE TRIGGER trg_UpdateSoLuongGiay_AfterInsertHD
-ON CHITIETHD
-AFTER INSERT
-AS
-BEGIN
-    SET NOCOUNT ON;
-
-    DECLARE @MaGiay INT, @SoLuong INT;
-
-    -- Duyệt qua từng hàng vừa được thêm vào bảng chi tiết hóa đơn
-    DECLARE cur CURSOR FOR
-    SELECT MaGiay, SoLuong
-    FROM inserted;
-
-    OPEN cur;
-    FETCH NEXT FROM cur INTO @MaGiay, @SoLuong;
-
-    WHILE @@FETCH_STATUS = 0
-    BEGIN
-        -- Cập nhật số lượng giày trong kho sau khi hóa đơn được thanh toán
-        UPDATE GIAY
-        SET SoLuong = SoLuong - @SoLuong
-        WHERE MaGiay = @MaGiay;
-
-        FETCH NEXT FROM cur INTO @MaGiay, @SoLuong;
-    END;
-
-    CLOSE cur;
-    DEALLOCATE cur;
-END;
+INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('VIP');
+INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('Thường Xuyên');
+INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('Mới');
 GO
 
-CREATE TRIGGER trg_UpdateSoLuongGiay_AfterUpdateHD
-ON CHITIETHD
-AFTER UPDATE
-AS
-BEGIN
-    SET NOCOUNT ON;
+INSERT INTO KHACHHANG (TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai, MaLoaiKH) 
+VALUES (0, N'Nguyễn Thị Hồng', N'Nữ', N'Số 25, Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh', 'emily.rose5678@gmail.com', '0987 654 321', NULL)
 
-    DECLARE @MaGiay INT, @OldSoLuong INT, @NewSoLuong INT;
+INSERT INTO KHACHHANG (TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai, MaLoaiKH) 
+VALUES (0, N'Lê Văn Hưng', N'Nam', N'Số 123, Đường Cách Mạng Tháng Tám, Quận Ninh Kiều, TP. Cần Thơ', 'david.jones91011@gmail.com', '0901 234 567', NULL)
 
-    -- Duyệt qua từng hàng được cập nhật
-    DECLARE cur CURSOR FOR
-    SELECT i.MaGiay, d.SoLuong AS OldSoLuong, i.SoLuong AS NewSoLuong
-    FROM inserted i
-    JOIN deleted d ON i.MaHD = d.MaHD AND i.MaGiay = d.MaGiay;
+INSERT INTO KHACHHANG (TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai, MaLoaiKH) 
+VALUES (0, N'Phạm Quốc Khánh', N'Nam', N'Số 45, Đường Trần Phú, Phường 5, TP. Đà Lạt, Lâm Đồng', 'sarah.williams1213@gmail.com', '0968 123 456', NULL)
 
-    OPEN cur;
-    FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
+INSERT INTO KHACHHANG (TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai, MaLoaiKH) 
+VALUES (0, N'Trần Thị Thu Hà', N'Nữ', N'Số 78, Đường Phạm Văn Đồng, Quận Sơn Trà, TP. Đà Nẵng', 'michael.brown1415@gmail.com', '0933 987 654', NULL)
 
-    WHILE @@FETCH_STATUS = 0
-    BEGIN
-        -- Cập nhật lại số lượng giày trong kho sau khi hóa đơn được cập nhật
-        UPDATE GIAY
-        SET SoLuong = SoLuong + (@OldSoLuong - @NewSoLuong)
-        WHERE MaGiay = @MaGiay;
-
-        FETCH NEXT FROM cur INTO @MaGiay, @OldSoLuong, @NewSoLuong;
-    END;
-
-    CLOSE cur;
-    DEALLOCATE cur;
-END;
-GO
-
-INSERT INTO KHACHHANG(TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai) 
-VALUES(0, N'Nguyễn Thị Hồng', N'Nữ', N'Số 25, Đường Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh', 'emily.rose5678@gmail.com', '0987 654 321');
-
-INSERT INTO KHACHHANG(TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai) 
-VALUES(0, N'Lê Văn Hưng', N'Nam', N'Số 123, Đường Cách Mạng Tháng Tám, Quận Ninh Kiều, TP. Cần Thơ', 'david.jones91011@gmail.com', '0901 234 567');
-
-INSERT INTO KHACHHANG(TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai) 
-VALUES(0, N'Phạm Quốc Khánh', N'Nam', N'Số 45, Đường Trần Phú, Phường 5, TP. Đà Lạt, Lâm Đồng', 'sarah.williams1213@gmail.com', '0968 123 456');
-
-INSERT INTO KHACHHANG(TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai) 
-VALUES(0, N'Trần Thị Thu Hà', N'Nữ', N'Số 78, Đường Phạm Văn Đồng, Quận Sơn Trà, TP. Đà Nẵng', 'michael.brown1415@gmail.com', '0933 987 654');
-
-INSERT INTO KHACHHANG(TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai) 
-VALUES(0, N'Hoàng Thị Mai', N'Nữ', N'Số 200, Đường Hoàng Diệu, Quận Ba Đình, Hà Nội', 'mai.hoang200@gmail.com', '0977 888 999');
-
+INSERT INTO KHACHHANG (TongChiTieu, HoTen, GioiTinh, DiaChi, Email, DienThoai, MaLoaiKH) 
+VALUES (0, N'Hoàng Thị Mai', N'Nữ', N'Số 200, Đường Hoàng Diệu, Quận Ba Đình, Hà Nội', 'mai.hoang200@gmail.com', '0977 888 999', NULL)
 select * from KHACHHANG
 GO
 
@@ -497,6 +432,18 @@ VALUES(N'Nhân viên kho', N'Lê Văn Tùng', N'Nam', N'Số 22, Đường Võ T
 select * from NHANVIEN
 GO
 
+INSERT INTO PHANQUYEN (TenQuyen) VALUES (N'Quản lý sản phẩm');
+INSERT INTO PHANQUYEN (TenQuyen) VALUES (N'Quản lý hóa đơn');
+INSERT INTO PHANQUYEN (TenQuyen) VALUES (N'Xem báo cáo');
+select * from PHANQUYEN
+GO
+
+INSERT INTO NHANVIEN_QUYEN (MaNV, MaQuyen) VALUES (1, 1);
+INSERT INTO NHANVIEN_QUYEN (MaNV, MaQuyen) VALUES (1, 2);
+INSERT INTO NHANVIEN_QUYEN (MaNV, MaQuyen) VALUES (2, 3);
+select * from NHANVIEN_QUYEN
+GO
+
 INSERT INTO TAIKHOANNV(MaNV, TenDN, MatKhau) 
 VALUES(1, N'annguyen', N'Annguyen123@');
 
@@ -569,6 +516,14 @@ VALUES(N'Giày loafer Converse', 25, 1500000, N'41', N'Nam', N'Vải', 5, 5, 5, 
 select * from GIAY
 GO
 
+-- Thêm dữ liệu kiểm kê cho ngày cụ thể
+INSERT INTO KIEMKE (NgayKiemKe, MaGiay, SoLuongThucTe)
+VALUES
+('2024-09-15', 1, 50),
+('2024-09-15', 2, 30),
+('2024-09-15', 3, 20);
+
+
 INSERT INTO CHITIETKM(MaKM, MaGiay, TiLeKM) 
 VALUES(1, 1, 0.10);
 
@@ -622,3 +577,78 @@ VALUES(5, 5, 8, 1500000);
 
 select * from CHITIETPN
 GO
+
+-- Tổng hợp số lượng sản phẩm còn lại trong kho
+SELECT 
+    GIAY.MaGiay,
+    GIAY.TenGiay,
+    GIAY.SoLuong AS SoLuongTonKho
+FROM GIAY
+ORDER BY GIAY.TenGiay
+
+-- Tổng hợp thông tin phiếu nhập hàng
+SELECT 
+    PHIEUNHAP.MaPN,
+    PHIEUNHAP.NgayNhap,
+    NHACUNGCAP.TenNCC,
+    SUM(CHITIETPN.SoLuong) AS TongSoLuongNhap,
+    SUM(CHITIETPN.GiaNhap * CHITIETPN.SoLuong) AS TongGiaNhap
+FROM PHIEUNHAP
+INNER JOIN NHACUNGCAP ON PHIEUNHAP.MaNCC = NHACUNGCAP.MaNCC
+INNER JOIN CHITIETPN ON PHIEUNHAP.MaPN = CHITIETPN.MaPN
+GROUP BY PHIEUNHAP.MaPN, PHIEUNHAP.NgayNhap, NHACUNGCAP.TenNCC
+ORDER BY PHIEUNHAP.NgayNhap DESC
+
+-- Tổng hợp thông tin hóa đơn bán hàng
+SELECT 
+    HOADON.MaHD,
+    HOADON.NgayBan,
+    KHACHHANG.HoTen AS TenKhachHang,
+    SUM(CHITIETHD.SoLuong) AS TongSoLuongBan,
+    SUM(CHITIETHD.GiaBan * CHITIETHD.SoLuong) AS TongGiaBan
+FROM HOADON
+INNER JOIN KHACHHANG ON HOADON.MaKH = KHACHHANG.MaKH
+INNER JOIN CHITIETHD ON HOADON.MaHD = CHITIETHD.MaHD
+GROUP BY HOADON.MaHD, HOADON.NgayBan, KHACHHANG.HoTen
+ORDER BY HOADON.NgayBan DESC
+
+-- Xem quyền của nhân viên 1
+SELECT nv.HoTen, pq.TenQuyen
+FROM NHANVIEN nv
+JOIN NHANVIEN_QUYEN nvq ON nv.MaNV = nvq.MaNV
+JOIN PHANQUYEN pq ON nvq.MaQuyen = pq.MaQuyen
+WHERE nv.MaNV = 1
+
+-- Truy vấn để so sánh số lượng thực tế và số lượng trong hệ thống
+SELECT 
+    GIAY.MaGiay,
+    GIAY.TenGiay,
+    GIAY.SoLuong AS SoLuongHienCo,
+    KIEMKE.SoLuongThucTe AS SoLuongThucTe,
+    (GIAY.SoLuong - KIEMKE.SoLuongThucTe) AS ChenhLech
+FROM GIAY
+INNER JOIN KIEMKE ON GIAY.MaGiay = KIEMKE.MaGiay
+WHERE KIEMKE.NgayKiemKe = '2024-09-15'
+
+-- Doanh thu từ hóa đơn
+SELECT SUM(TongTien) AS DoanhThu FROM HOADON;
+
+-- Chi từ phiếu nhập
+SELECT SUM(TongTien) AS Chi FROM PHIEUNHAP;
+
+-- Báo cáo lợi nhuận theo tháng
+SELECT 
+    MONTH(NgayBan) AS Thang, 
+    YEAR(NgayBan) AS Nam, 
+    SUM(TongTien - Thue) AS DoanhThu,
+    (SELECT SUM(TongTien) FROM PHIEUNHAP WHERE MONTH(NgayNhap) = MONTH(HOADON.NgayBan) AND YEAR(NgayNhap) = YEAR(HOADON.NgayBan)) AS Chi,
+    SUM(TongTien - Thue) - (SELECT SUM(TongTien) FROM PHIEUNHAP WHERE MONTH(NgayNhap) = MONTH(HOADON.NgayBan) AND YEAR(NgayNhap) = YEAR(HOADON.NgayBan)) AS LoiNhuan
+FROM HOADON
+GROUP BY MONTH(NgayBan), YEAR(NgayBan);
+
+-- Báo cáo lợi nhuận tổng hợp
+SELECT 
+    SUM(TongTien - Thue) AS TongDoanhThu,
+    (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongChi,
+    SUM(TongTien - Thue) - (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongLoiNhuan
+FROM HOADON;
