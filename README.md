@@ -35,66 +35,18 @@ Các công nghệ này kết hợp với nhau để cung cấp một giải phá
 ## Danh sách chức năng Winform
 
 ### Phân công công việc
-| STT | Tên thành viên   | Công việc                                     |
-|-----|------------------|-----------------------------------------------|
-| 1   | Lê Thanh Yên     | **Quản lý khách hàng**                       |
-| 1.1 | Lê Thanh Yên     | Quản lý thông tin khách hàng                 |
-| 1.2 | Lê Thanh Yên     | Xem lịch sử mua hàng                         |
-| 1.3 | Lê Thanh Yên     | Phân loại khách hàng                         |
-| 1.4 | Lê Thanh Yên     | Chăm sóc khách hàng                          |
-| 2   | Hoàng Đức Quân   | **Quản lý nhân viên**                        |
-| 2.1 | Hoàng Đức Quân   | Quản lý thông tin nhân viên                  |
-| 2.2 | Hoàng Đức Quân   | Quản lý lịch làm việc                        |
-| 2.3 | Hoàng Đức Quân   | Quản lý lương                                 |
-| 2.4 | Hoàng Đức Quân   | Đánh giá hiệu suất làm việc                  |
-| 3   | Lê Thanh Yên     | **Quản lý hàng tồn kho**                     |
-| 3.1 | Lê Thanh Yên     | Quản lý nhập/xuất hàng                       |
-| 3.2 | Lê Thanh Yên     | Theo dõi và kiểm kê kho                      |
-| 3.3 | Lê Thanh Yên     | Quản lý trạng thái hàng hóa                  |
-| 4   | Hoàng Đức Quân   | **Quản lý doanh số bán hàng**                |
-| 4.1 | Hoàng Đức Quân   | Xử lý giao dịch bán hàng                     |
-| 4.2 | Hoàng Đức Quân   | Tính toán và báo cáo doanh thu               |
-| 4.3 | Hoàng Đức Quân   | Phân tích doanh số                           |
-| 5   | Lê Thanh Yên     | **Quản lý nhà cung cấp**                     |
-| 5.1 | Lê Thanh Yên     | Quản lý thông tin nhà cung cấp               |
-| 5.2 | Lê Thanh Yên     | Quản lý giao dịch nhập hàng                  |
-| 5.3 | Lê Thanh Yên     | Đánh giá nhà cung cấp                        |
-| 6   | Hoàng Đức Quân   | **Báo cáo và phân tích**                     |
-| 6.1 | Hoàng Đức Quân   | Tạo báo cáo tổng hợp                         |
-| 6.2 | Hoàng Đức Quân   | Phân tích dữ liệu kinh doanh                 |
-| 7   | Lê Thanh Yên     | **Tích hợp hệ thống khác**                   |
-| 7.1 | Lê Thanh Yên     | Kết nối với website bán hàng                 |
 
-
-## Danh sách chức năng Website
-
-### Phân công công việc
-| STT | Tên thành viên   | Công việc                                    |
-|-----|------------------|----------------------------------------------|
-| 1   | Lê Thanh Yên     | **Trang chủ**                                |
-| 1.1 | Lê Thanh Yên     | Hiển thị sản phẩm nổi bật, khuyến mãi        |
-| 1.2 | Lê Thanh Yên     | Cung cấp thanh tìm kiếm sản phẩm             |
-| 2   | Hoàng Đức Quân   | **Quản lý sản phẩm**                         |
-| 2.1 | Hoàng Đức Quân   | Xem chi tiết sản phẩm                        |
-| 2.2 | Hoàng Đức Quân   | Bộ lọc sản phẩm                              |
-| 2.3 | Hoàng Đức Quân   | Thêm sản phẩm vào giỏ hàng                   |
-| 3   | Lê Thanh Yên     | **Giỏ hàng**                                 |
-| 3.1 | Lê Thanh Yên     | Xem và chỉnh sửa giỏ hàng                   |
-| 3.2 | Lê Thanh Yên     | Tính toán tổng tiền                          |
-| 4   | Hoàng Đức Quân   | **Thanh toán**                               |
-| 4.1 | Hoàng Đức Quân   | Chọn phương thức thanh toán                  |
-| 4.2 | Hoàng Đức Quân   | Nhập địa chỉ giao hàng                       |
-| 4.3 | Hoàng Đức Quân   | Xác nhận đơn hàng                            |
-| 5   | Lê Thanh Yên     | **Quản lý tài khoản khách hàng**             |
-| 5.1 | Lê Thanh Yên     | Đăng ký/Đăng nhập                            |
-| 5.2 | Lê Thanh Yên     | Quên mật khẩu                                |
-| 5.3 | Lê Thanh Yên     | Quản lý thông tin cá nhân                    |
-| 5.4 | Lê Thanh Yên     | Xem lịch sử mua hàng                         |
-| 6   | Hoàng Đức Quân   | **Quản lý đơn hàng**                         |
-| 6.1 | Hoàng Đức Quân   | Theo dõi trạng thái đơn hàng                 |
-| 6.2 | Hoàng Đức Quân   | Hủy hoặc thay đổi đơn hàng                   |
-| 7   | Lê Thanh Yên     | **Hỗ trợ khách hàng**                        |
-| 7.1 | Lê Thanh Yên     | Liên hệ và giải quyết hỗ trợ                 |
-| 7.2 | Lê Thanh Yên     | Câu hỏi thường gặp (FAQ)                     |
+| **Chức năng**                                    | **Hoàng Đức Quân**                               | **Lê Thanh Yên**                                |
+|--------------------------------------------------|--------------------------------------------------|------------------------------------------------|
+| **1. Quản lý thông tin nhân viên**               | Xem danh sách nhân viên, thêm mới, cập nhật, khóa tài khoản, reset mật khẩu |                                                |
+| **2. Quản lý phân quyền cho nhân viên**          |                                                  | Thêm quyền, xóa quyền                          |
+| **3. Quản lý danh mục sản phẩm**                 |                                                  | Loại sản phẩm, xuất xứ, thương hiệu, màu sắc: Xem danh sách, thêm mới, chỉnh sửa |
+| **4. Quản lý nhà cung cấp**                      | Xem danh sách, thêm mới, cập nhật                |                                                |
+| **5. Quản lý khách hàng**                        |                                                  | Xem danh sách khách hàng, thêm mới, cập nhật    |
+| **6. Quản lý đơn hàng (hóa đơn)**                | Lập hóa đơn, báo cáo đơn hàng (theo ngày, nhân viên), tính tổng tiền, xuất hóa đơn, xem lịch sử hóa đơn (theo nhân viên, khách hàng) |                                                |
+| **7. Quản lý nhập hàng**                         |                                                  | Xem danh sách đơn nhập hàng, thêm mới, xác nhận nhập hàng |
+| **8. Quản lý báo cáo kiểm kê**                   | Xem danh sách báo cáo kiểm kê, thêm mới đợt kiểm kê, chỉnh sửa mẫu kiểm kê, xuất báo cáo |                                                |
+| **9. Quản lý chương trình khuyến mãi**           |                                                  | Xem danh sách chương trình khuyến mãi, cập nhật chương trình, chi tiết chương trình |
+| **10. Báo cáo thu/chi/lợi nhuận**                | Theo dõi thu/chi/lợi nhuận theo ngày, tuần, tháng, quý, năm, xem biểu đồ |                                                |
 
 ## AI sử dụng: Nhận dạng hình ảnh sản phẩm (Product Image Recognition)
