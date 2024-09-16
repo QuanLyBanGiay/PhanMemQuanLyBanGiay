@@ -683,3 +683,5 @@ SELECT
     (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongChi,
     SUM(TongTien - Thue) - (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongLoiNhuan
 FROM HOADON;
+
+select * from TAIKHOANNV, NhanVien where TaiKhoanNV.MaNV = NhanVien.MaNV

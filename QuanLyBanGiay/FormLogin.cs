@@ -32,7 +32,8 @@ namespace QuanLyBanGiay
         private void LoginSuccessful(object sender, EventArgs e)
         {
             Form f = new Form1();
-            f.ShowDialog();
+            f.Show();
+            this.Hide();
         }
     }
 }
