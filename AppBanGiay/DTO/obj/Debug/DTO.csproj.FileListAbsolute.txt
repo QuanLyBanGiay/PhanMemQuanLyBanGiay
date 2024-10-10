@@ -4,3 +4,10 @@ D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\DTO\obj\Debug\DTO.csproj.Asse
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\DTO\obj\Debug\DTO.dll
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\DTO\obj\Debug\DTO.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.dll.config
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.pdb

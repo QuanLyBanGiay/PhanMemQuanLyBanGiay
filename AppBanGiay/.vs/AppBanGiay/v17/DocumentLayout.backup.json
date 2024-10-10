@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\DoAn_PTPM\\Suorce\\AppBanGiay\\",
+  "WorkspaceRootPath": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\doan_ptpm\\suorce\\appbangiay\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\dangnhapcontrol\\dangnhapcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|solutionrelative:dangnhapcontrol\\dangnhapcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\gui\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AA136B5-7938-44A3-BDDF-E8800C5116B9}|DAL\\DAL.csproj|D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\dal\\nhanvien_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA136B5-7938-44A3-BDDF-E8800C5116B9}|DAL\\DAL.csproj|solutionrelative:dal\\nhanvien_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52582124-68CD-4492-9829-105337D87458}|BLL\\BLL.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\bll\\nhanvien_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52582124-68CD-4492-9829-105337D87458}|BLL\\BLL.csproj|solutionrelative:bll\\nhanvien_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +30,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhanVien_DAL.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DAL\\NhanVien_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhanVien_DAL.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DAL\\NhanVien_DAL.cs",
+              "RelativeToolTip": "DAL\\NhanVien_DAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:53:32.461Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanVien_BLL.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\BLL\\NhanVien_BLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhanVien_BLL.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\BLL\\NhanVien_BLL.cs",
+              "RelativeToolTip": "BLL\\NhanVien_BLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:09:27.249Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\DoAn_PTPM\\Suorce\\AppBanGiay\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\DoAn_PTPM\\Suorce\\AppBanGiay\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAEwBIAAAApAAAAAAAAAA==",
+              "Title": "DangNhapControl.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\DangNhapControl.cs",
+              "RelativeDocumentMoniker": "DangNhapControl\\DangNhapControl.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\DangNhapControl.cs",
+              "RelativeToolTip": "DangNhapControl\\DangNhapControl.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T11:28:08.834Z",
+              "WhenOpened": "2024-10-10T05:24:39.474Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_DangNhap.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frm_DangNhap.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DangNhap.cs",
+              "RelativeToolTip": "GUI\\frm_DangNhap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:33:09.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frm_DangNhap.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DangNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\frm_DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T04:57:21.257Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
