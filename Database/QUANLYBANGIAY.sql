@@ -289,6 +289,35 @@ BEGIN
 END;
 GO
 
+CREATE TRIGGER trg_UpdateTongChiTieu
+ON HOADON
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @MaKH INT;
+
+    IF EXISTS (SELECT * FROM inserted)
+    BEGIN
+        SELECT TOP 1 @MaKH = MaKH FROM inserted;
+    END
+
+    IF EXISTS (SELECT * FROM deleted)
+    BEGIN
+        SELECT TOP 1 @MaKH = MaKH FROM deleted;
+    END
+    UPDATE KHACHHANG
+    SET TongChiTieu = (
+        SELECT SUM(TongTien) 
+        FROM HOADON
+        WHERE MaKH = @MaKH
+    )
+    WHERE KHACHHANG.MaKH = @MaKH;
+END;
+GO
+
+
 INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('VIP');
 INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('Thường Xuyên');
 INSERT INTO LOAIKHACHHANG (TenLoaiKH) VALUES ('Mới');
@@ -612,6 +641,8 @@ INNER JOIN CHITIETHD ON HOADON.MaHD = CHITIETHD.MaHD
 GROUP BY HOADON.MaHD, HOADON.NgayBan, KHACHHANG.HoTen
 ORDER BY HOADON.NgayBan DESC
 
+select * from KHACHHANG
+
 -- Xem quyền của nhân viên 1
 SELECT nv.HoTen, pq.TenQuyen
 FROM NHANVIEN nv
@@ -652,3 +683,5 @@ SELECT
     (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongChi,
     SUM(TongTien - Thue) - (SELECT SUM(TongTien) FROM PHIEUNHAP) AS TongLoiNhuan
 FROM HOADON;
+
+select * from TAIKHOANNV, NhanVien where TaiKhoanNV.MaNV = NhanVien.MaNV

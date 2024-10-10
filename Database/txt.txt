@@ -1,0 +1,13 @@
+1/ Quản lý thông tin nhân viên: Xem danh sách nhân viên, thêm mới, cập nhật, khoá tài khoản, reset mật khẩu
+2/ Quản lý phân quyền cho nhân viên: Thêm quyền, xoá quyền
+3/ Quản lý danh mục sản phẩm: Loại sản phẩm, xuất xứ, thương hiệu, màu sắc: Xem danh sách, thêm mới, chỉnh sửa
+4/ Quản lý nhà cung cấp: Xem danh sách, thêm mới, cập nhật
+5/ Quản lý khách hàng: Xem danh sách khách hàng, thêm mới khách hàng, cập nhật khách hàng
+6/ Quản lý đơn hàng(hoá đơn): Lập hoá đơn, báo cáo đơn hàng(theo ngày, nhân viên) tính tổng tiền, xuất hoá đơn, xem lịch sử hoá đơn(theo nhân viên, khách hàng)
+7/ Quản lý nhập hàng: Xem danh sách đơn nhập hàng, thêm mới, xác nhận nhập hàng
+8/ Quản lý báo cáo kiểm kê: Xem danh sách báo cáo kiểm kê, thêm mới đợt kiểm kê, chỉnh sửa mẫu kiểm kê, xuất báo cáo
+9/ Quản lý chương trình khuyến mãi: Xem danh sách chương trình khuyến mãi, cập nhật chương trình, chi tiết chương trình
+10/ Báo cáo: thu/chi/lợi nhuận theo ngày, tuần, tháng, quý, năm, xem biểu đồ
+
+Cần chỉnh sửa:
+1/ Cột TongChiTieu trong bảng KHACHHANG có thể được cập nhật tự động dựa trên tổng số tiền đã chi tiêu trong các hóa đơn.

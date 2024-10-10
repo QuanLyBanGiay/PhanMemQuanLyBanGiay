@@ -4,3 +4,15 @@ D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\BLL\obj\Debug\BLL.csproj.Asse
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\BLL\obj\Debug\BLL.dll
 D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\BLL\obj\Debug\BLL.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\BLL.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\BLL.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\DAL.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\DTO.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\DAL.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\DTO.pdb
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\bin\Debug\DTO.dll.config
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\obj\Debug\BLL.dll
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\BLL\obj\Debug\BLL.pdb
