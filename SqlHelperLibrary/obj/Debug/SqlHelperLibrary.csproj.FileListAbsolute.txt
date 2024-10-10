@@ -1,6 +1,0 @@
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\bin\Debug\SqlHelperLibrary.dll
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\bin\Debug\SqlHelperLibrary.pdb
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\obj\Debug\SqlHelperLibrary.csproj.AssemblyReference.cache
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\obj\Debug\SqlHelperLibrary.csproj.CoreCompileInputs.cache
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\obj\Debug\SqlHelperLibrary.dll
-D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\SqlHelperLibrary\obj\Debug\SqlHelperLibrary.pdb

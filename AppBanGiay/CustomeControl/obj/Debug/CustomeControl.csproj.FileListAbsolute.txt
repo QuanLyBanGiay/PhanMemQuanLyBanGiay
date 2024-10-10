@@ -1,0 +1,6 @@
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\bin\Debug\CustomeControl.dll
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\bin\Debug\CustomeControl.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\obj\Debug\CustomeControl.csproj.AssemblyReference.cache
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\obj\Debug\CustomeControl.csproj.CoreCompileInputs.cache
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\obj\Debug\CustomeControl.dll
+D:\Hoc\IT\HOCKY_7\PTPM\DoAn_PTPM\Suorce\AppBanGiay\CustomeControl\obj\Debug\CustomeControl.pdb
