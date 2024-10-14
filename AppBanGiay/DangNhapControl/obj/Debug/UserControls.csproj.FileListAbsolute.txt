@@ -32,3 +32,4 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserCont.3CCE6689.Up2Date
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.dll
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources

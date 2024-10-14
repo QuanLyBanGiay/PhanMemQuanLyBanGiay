@@ -15,6 +15,7 @@ namespace GUI
         public FormMain()
         {
             InitializeComponent();
+            this.WindowState = FormWindowState.Maximized;
         }
         public void LoadForm(Form form, Panel panel)
         {
@@ -56,7 +57,7 @@ namespace GUI
 
         private void btn_LapHoaDon_Click(object sender, EventArgs e)
         {
-            LoadForm(new Frm_LapHoaDon(),mainPanel);
+            LoadForm(new frm_LapHoaDon(),mainPanel);
         }
     }
 }

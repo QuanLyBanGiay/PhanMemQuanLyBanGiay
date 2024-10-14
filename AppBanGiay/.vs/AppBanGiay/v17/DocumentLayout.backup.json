@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\dangnhapcontrol\\layout_item_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|solutionrelative:dangnhapcontrol\\layout_item_sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\dangnhapcontrol\\layout_item_sanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|solutionrelative:dangnhapcontrol\\layout_item_sanpham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_lapthongkebaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_lapthongkebaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_lapphieunhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_lapphieunhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_lapphieunhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_lapphieunhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\gui\\frm_laphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_laphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hoc\\it\\hocky_7\\ptpm\\phanmemquanlybangiay\\appbangiay\\gui\\frm_lapphieudichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_lapphieudichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,135 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_DonDatHang.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DonDatHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_DonDatHang.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DonDatHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_DonDatHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:12:35.181Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frm_KhoHang.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_KhoHang.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_KhoHang.cs [Design]",
+              "Title": "Layout_Item_SanPham.Designer.cs",
+              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\Layout_Item_SanPham.Designer.cs",
+              "RelativeDocumentMoniker": "DangNhapControl\\Layout_Item_SanPham.Designer.cs",
+              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\Layout_Item_SanPham.Designer.cs",
+              "RelativeToolTip": "DangNhapControl\\Layout_Item_SanPham.Designer.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv08AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:12:20.787Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-14T07:54:36.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frm_KhachHang.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhachHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_KhachHang.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhachHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_KhachHang.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Layout_Item_SanPham.cs [Design]",
+              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\Layout_Item_SanPham.cs",
+              "RelativeDocumentMoniker": "DangNhapControl\\Layout_Item_SanPham.cs",
+              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\Layout_Item_SanPham.cs [Design]",
+              "RelativeToolTip": "DangNhapControl\\Layout_Item_SanPham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:12:09.407Z",
+              "WhenOpened": "2024-10-14T07:50:26.081Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frm_NhaCungCap.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_NhaCungCap.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:11:49.515Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frm_DichVu.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DichVu.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_DichVu.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DichVu.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_DichVu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:11:35.973Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frm_HoaDon.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_HoaDon.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_HoaDon.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_HoaDon.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_HoaDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:11:26.112Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frm_LapThongKeBaoCao.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapThongKeBaoCao.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_LapThongKeBaoCao.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapThongKeBaoCao.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_LapThongKeBaoCao.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:11:01.439Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frm_LapPhieuNhapKho.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuNhapKho.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_LapPhieuNhapKho.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuNhapKho.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_LapPhieuNhapKho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:10:39.788Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "frm_LapPhieuNhapHang.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuNhapHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_LapPhieuNhapHang.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuNhapHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_LapPhieuNhapHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:10:24.729Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs",
               "RelativeDocumentMoniker": "GUI\\FormMain.cs",
               "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs [Design]",
               "RelativeToolTip": "GUI\\FormMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:08:25.448Z",
+              "WhenOpened": "2024-10-14T07:21:35.606Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frm_LapPhieuDichVu.cs [Design]",
-              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuDichVu.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_LapPhieuDichVu.cs",
-              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapPhieuDichVu.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_LapPhieuDichVu.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frm_LapHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapHoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\frm_LapHoaDon.cs",
+              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\frm_LapHoaDon.cs [Design]",
+              "RelativeToolTip": "GUI\\frm_LapHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T06:08:16.016Z",
+              "WhenOpened": "2024-10-14T07:17:43.708Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
+              "ToolTip": "D:\\Hoc\\IT\\HOCKY_7\\PTPM\\PhanMemQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs",
+              "RelativeToolTip": "GUI\\FormMain.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAIA0wDsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T07:14:05.135Z",
+              "EditorCaption": ""
             }
           ]
         }

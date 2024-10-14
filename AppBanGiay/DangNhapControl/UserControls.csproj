@@ -68,6 +68,15 @@
     <Compile Include="DataGirdViewCustomColor.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="LabelCustom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Layout_Item_SanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Layout_Item_SanPham.Designer.cs">
+      <DependentUpon>Layout_Item_SanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -77,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhapControl.resx">
       <DependentUpon>DangNhapControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout_Item_SanPham.resx">
+      <DependentUpon>Layout_Item_SanPham.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
