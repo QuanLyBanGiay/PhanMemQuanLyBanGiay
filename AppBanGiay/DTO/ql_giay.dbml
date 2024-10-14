@@ -1,23 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ql_gau_bong" Class="ql_giayDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP\MSSQLSERVER07;Initial Catalog=ql_gau_bong;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="ql_gau_bongConnectionString" Provider="System.Data.SqlClient" />
-  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADONs">
-    <Type Name="CHITIETHOADON">
-      <Column Name="MaHoaDon" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaSanPham" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="DonGia" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Column Name="ThanhTien" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Association Name="HOADONBANHANG_CHITIETHOADON" Member="HOADONBANHANG" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="HOADONBANHANG" IsForeignKey="true" />
-      <Association Name="SANPHAM_CHITIETHOADON" Member="SANPHAM" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="SANPHAM" IsForeignKey="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.VAITRO" Member="VAITROs">
-    <Type Name="VAITRO">
-      <Column Name="MaVaiTro" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="TenVaiTro" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
-      <Association Name="VAITRO_PHAN_QUYEN_NHAN_VIEN" Member="PHAN_QUYEN_NHAN_VIENs" ThisKey="MaVaiTro" OtherKey="MaVaiTro" Type="PHAN_QUYEN_NHAN_VIEN" />
-    </Type>
-  </Table>
+  <Connection Mode="AppSettings" ConnectionString="Data Source=QUANHD;Initial Catalog=ql_gau_bong;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="DTO.Properties.Settings" SettingsPropertyName="ql_gau_bongConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.CHITIETKIEMKE" Member="CHITIETKIEMKEs">
     <Type Name="CHITIETKIEMKE">
       <Column Name="MaKiemKe" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -43,6 +25,17 @@
       <Association Name="SANPHAM_CHITIETPHIEUNHAP" Member="SANPHAM" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="SANPHAM" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.CHITIETHOADON" Member="CHITIETHOADONs">
+    <Type Name="CHITIETHOADON">
+      <Column Name="MaHoaDon" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaSanPham" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DonGia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ThanhTien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="HOADONBANHANG_CHITIETHOADON" Member="HOADONBANHANG" ThisKey="MaHoaDon" OtherKey="MaHoaDon" Type="HOADONBANHANG" IsForeignKey="true" />
+      <Association Name="SANPHAM_CHITIETHOADON" Member="SANPHAM" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="SANPHAM" IsForeignKey="true" />
+    </Type>
+  </Table>
   <Table Name="dbo.HOADONBANHANG" Member="HOADONBANHANGs">
     <Type Name="HOADONBANHANG">
       <Column Name="MaHoaDon" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -59,6 +52,14 @@
       <Association Name="KHACHHANG_HOADONBANHANG" Member="KHACHHANG" ThisKey="MaKhachHang" OtherKey="MaKhachHang" Type="KHACHHANG" IsForeignKey="true" />
       <Association Name="KHUYENMAI_HOADONBANHANG" Member="KHUYENMAI" ThisKey="MaKhuyenMai" OtherKey="MaKhuyenMai" Type="KHUYENMAI" IsForeignKey="true" />
       <Association Name="NHANVIEN_HOADONBANHANG" Member="NHANVIEN" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NHANVIEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KIEMKE" Member="KIEMKEs">
+    <Type Name="KIEMKE">
+      <Column Name="MaKiemKe" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ThoiGianKiemKe" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TongTienChenhLech" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="KIEMKE_CHITIETKIEMKE" Member="CHITIETKIEMKEs" ThisKey="MaKiemKe" OtherKey="MaKiemKe" Type="CHITIETKIEMKE" />
     </Type>
   </Table>
   <Table Name="dbo.KHACHHANG" Member="KHACHHANGs">
@@ -85,14 +86,6 @@
       <Column Name="NgayBatDau" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="NgayKetThuc" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Association Name="KHUYENMAI_HOADONBANHANG" Member="HOADONBANHANGs" ThisKey="MaKhuyenMai" OtherKey="MaKhuyenMai" Type="HOADONBANHANG" />
-    </Type>
-  </Table>
-  <Table Name="dbo.KIEMKE" Member="KIEMKEs">
-    <Type Name="KIEMKE">
-      <Column Name="MaKiemKe" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="ThoiGianKiemKe" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="TongTienChenhLech" Type="System.Double" DbType="Float" CanBeNull="true" />
-      <Association Name="KIEMKE_CHITIETKIEMKE" Member="CHITIETKIEMKEs" ThisKey="MaKiemKe" OtherKey="MaKiemKe" Type="CHITIETKIEMKE" />
     </Type>
   </Table>
   <Table Name="dbo.LOAISANPHAM" Member="LOAISANPHAMs">
@@ -130,8 +123,8 @@
       <Column Name="MaVaiTro" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="MaPhanQuyen" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Association Name="NHANVIEN_PHAN_QUYEN_NHAN_VIEN" Member="NHANVIEN" ThisKey="MaNhanVien" OtherKey="MaNhanVien" Type="NHANVIEN" IsForeignKey="true" />
-      <Association Name="VAITRO_PHAN_QUYEN_NHAN_VIEN" Member="VAITRO" ThisKey="MaVaiTro" OtherKey="MaVaiTro" Type="VAITRO" IsForeignKey="true" />
       <Association Name="PHANQUYEN_PHAN_QUYEN_NHAN_VIEN" Member="PHANQUYEN" ThisKey="MaPhanQuyen" OtherKey="MaPhanQuyen" Type="PHANQUYEN" IsForeignKey="true" />
+      <Association Name="VAITRO_PHAN_QUYEN_NHAN_VIEN" Member="VAITRO" ThisKey="MaVaiTro" OtherKey="MaVaiTro" Type="VAITRO" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.PHANQUYEN" Member="PHANQUYENs">
@@ -163,10 +156,17 @@
       <Column Name="MauSac" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="KichThuoc" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
       <Column Name="MaLoai" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="SANPHAM_CHITIETHOADON" Member="CHITIETHOADONs" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="CHITIETHOADON" />
       <Association Name="SANPHAM_CHITIETKIEMKE" Member="CHITIETKIEMKEs" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="CHITIETKIEMKE" />
       <Association Name="SANPHAM_CHITIETPHIEUNHAP" Member="CHITIETPHIEUNHAPs" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="CHITIETPHIEUNHAP" />
+      <Association Name="SANPHAM_CHITIETHOADON" Member="CHITIETHOADONs" ThisKey="MaSanPham" OtherKey="MaSanPham" Type="CHITIETHOADON" />
       <Association Name="LOAISANPHAM_SANPHAM" Member="LOAISANPHAM" ThisKey="MaLoai" OtherKey="MaLoai" Type="LOAISANPHAM" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VAITRO" Member="VAITROs">
+    <Type Name="VAITRO">
+      <Column Name="MaVaiTro" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenVaiTro" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="VAITRO_PHAN_QUYEN_NHAN_VIEN" Member="PHAN_QUYEN_NHAN_VIENs" ThisKey="MaVaiTro" OtherKey="MaVaiTro" Type="PHAN_QUYEN_NHAN_VIEN" />
     </Type>
   </Table>
 </Database>

@@ -33,5 +33,16 @@ namespace DTO.Properties {
                 return ((string)(this["ql_gau_bongConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=QUANHD;Initial Catalog=ql_gau_bong;Integrated Security=True;TrustServ" +
+            "erCertificate=True")]
+        public string ql_gau_bongConnectionString1 {
+            get {
+                return ((string)(this["ql_gau_bongConnectionString1"]));
+            }
+        }
     }
 }

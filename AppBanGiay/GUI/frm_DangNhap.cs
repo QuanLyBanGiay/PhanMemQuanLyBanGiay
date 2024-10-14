@@ -20,9 +20,14 @@ namespace GUI
 
         private void DangNhapControl1_DangNhapThanhCong(object sender, EventArgs e)
         {
-            Form f = new frm_Main();
+            Form f = new FormMain();
             this.Hide();
             f.Show();
+        }
+
+        private void dangNhapControl1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
