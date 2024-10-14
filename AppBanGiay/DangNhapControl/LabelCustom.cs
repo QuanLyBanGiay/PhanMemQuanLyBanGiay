@@ -9,7 +9,7 @@ namespace DangNhapControl
         public LabelCustom()
         {
             // Thiết lập font mặc định là Arial, kích thước 14
-            this.Font = new Font("Arial", 14, FontStyle.Regular);
+            this.Font = new Font("Arial", 10, FontStyle.Regular);
 
             // Thiết lập màu sắc mặc định
             this.BackColor = Color.Transparent; // Nền trong suốt
