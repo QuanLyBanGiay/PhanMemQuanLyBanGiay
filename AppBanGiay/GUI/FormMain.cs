@@ -15,9 +15,21 @@ namespace GUI
         public FormMain()
         {
             InitializeComponent();
+            this.Load += FormMain_Load;
             this.WindowState = FormWindowState.Maximized;
             this.btn_LapPhieuDichVu.Click += Btn_LapPhieuDichVu_Click;
+            this.btn_Kho.Click += Btn_Kho_Click;
             
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            LoadForm(new frm_KhoHang(), mainPanel);
+        }
+
+        private void Btn_Kho_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frm_KhoHang(), mainPanel);
         }
 
         private void Btn_LapPhieuDichVu_Click(object sender, EventArgs e)

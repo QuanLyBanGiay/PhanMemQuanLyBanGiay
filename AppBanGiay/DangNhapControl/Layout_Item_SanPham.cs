@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,21 +25,33 @@ namespace DangNhapControl
 
         private void Layout_Item_SanPham_Load(object sender, EventArgs e)
         {
-            //this.pictureBox1.Image = Image.FromFile("");
-            
-            //hanghoa.MaHangHoa = 1;
-            //hanghoa.TenHangHoa = "Áo thun";
-            //hanghoa.GiaBan = 100000;
-            //hanghoa.SoLuongTon = 10;
+            this.pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            // Hiển thị thông tin sản phẩm
             this.lbl_GiaBan.Text = hanghoa.GiaBan.ToString();
             this.lbl_TenHangHoa.Text = hanghoa.TenHangHoa;
             this.lbl_SoLuongTon.Text = hanghoa.SoLuongTon.ToString();
-            
+
+            // Hiển thị hình ảnh sản phẩm
+            if (!string.IsNullOrEmpty(hanghoa.UrlHinhAnh))
+            {
+                string url = Path.Combine(Application.StartupPath, @"Resources\"+hanghoa.UrlHinhAnh);
+                // Đảm bảo rằng HinhAnh là đường dẫn hợp lệ
+                if (File.Exists(url))
+                {
+                    this.pictureBox1.Image = Image.FromFile(url);
+                }
+                else
+                {
+                    // Xử lý nếu đường dẫn hình ảnh không hợp lệ (có thể đặt hình ảnh mặc định)
+                    this.pictureBox1.Image = null; // Hoặc một hình ảnh mặc định
+                }
+            }
         }
 
         private void Btn_Giam_Click(object sender, EventArgs e)
         {
-            if(int.Parse(txt_SoLuongMua.Text) > 0)
+            if (int.Parse(txt_SoLuongMua.Text) > 0)
             {
                 txt_SoLuongMua.Text = (int.Parse(txt_SoLuongMua.Text) - 1).ToString();
             }
@@ -50,7 +63,7 @@ namespace DangNhapControl
 
         private void Btn_Tang_Click(object sender, EventArgs e)
         {
-            if(txt_SoLuongMua.Text == "")
+            if (txt_SoLuongMua.Text == "")
             {
                 txt_SoLuongMua.Text = "1";
             }
