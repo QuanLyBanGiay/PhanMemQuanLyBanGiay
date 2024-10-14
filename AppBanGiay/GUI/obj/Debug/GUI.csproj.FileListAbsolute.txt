@@ -89,3 +89,4 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.exe
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.pdb
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_KhoHang.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhaCungCap.resources
