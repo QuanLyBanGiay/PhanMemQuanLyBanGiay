@@ -44,5 +44,16 @@ namespace DTO.Properties {
                 return ((string)(this["ql_gau_bongConnectionString1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP\\MSSQLSERVER07;Initial Catalog=ql_giay;Integrated Security=True" +
+            ";TrustServerCertificate=True")]
+        public string ql_giayConnectionString {
+            get {
+                return ((string)(this["ql_giayConnectionString"]));
+            }
+        }
     }
 }

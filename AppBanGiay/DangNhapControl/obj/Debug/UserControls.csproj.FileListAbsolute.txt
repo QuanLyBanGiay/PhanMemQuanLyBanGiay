@@ -33,3 +33,4 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.dll
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.pdb
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources

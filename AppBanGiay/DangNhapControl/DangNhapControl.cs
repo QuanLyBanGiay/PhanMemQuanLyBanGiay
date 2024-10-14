@@ -42,10 +42,10 @@ namespace DangNhapControl
         {
             try
             {
-                string strMaNV = txt_TenDangNhap.Text;
-                int manv = int.Parse(strMaNV);
+                string tenDN = txt_TenDangNhap.Text;
+                
                 string matKhau = txt_MatKhau.Text;
-                NHANVIEN nv = bll.LayNhanVienByMaVaMatKhau(manv, matKhau);
+                NHANVIEN nv = bll.LayNhanVienByTenDangNhapVaMatKhau(tenDN, matKhau);
                 if(nv != null )
                 {
                     MessageBox.Show("Đăng nhập thành công");

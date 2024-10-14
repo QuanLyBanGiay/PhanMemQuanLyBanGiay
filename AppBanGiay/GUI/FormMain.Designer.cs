@@ -66,10 +66,11 @@
             this.accordionControlElement1,
             this.accordionControlElement2,
             this.accordionControlElement3});
-            this.accordionControl1.Location = new System.Drawing.Point(0, 39);
+            this.accordionControl1.Location = new System.Drawing.Point(0, 32);
+            this.accordionControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.accordionControl1.Name = "accordionControl1";
             this.accordionControl1.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.accordionControl1.Size = new System.Drawing.Size(309, 812);
+            this.accordionControl1.Size = new System.Drawing.Size(265, 660);
             this.accordionControl1.TabIndex = 1;
             this.accordionControl1.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -222,12 +223,11 @@
             this.barButtonItem1});
             this.fluentDesignFormControl1.Location = new System.Drawing.Point(0, 0);
             this.fluentDesignFormControl1.Manager = this.fluentFormDefaultManager1;
+            this.fluentDesignFormControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.fluentDesignFormControl1.Name = "fluentDesignFormControl1";
-            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1303, 39);
+            this.fluentDesignFormControl1.Size = new System.Drawing.Size(1117, 31);
             this.fluentDesignFormControl1.TabIndex = 2;
             this.fluentDesignFormControl1.TabStop = false;
-            this.fluentDesignFormControl1.TitleItemLinks.Add(this.barButtonItem1);
-            this.fluentDesignFormControl1.TitleItemLinks.Add(this.barStaticItem1);
             // 
             // barStaticItem1
             // 
@@ -258,23 +258,26 @@
             this.mainPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.mainPanel.Location = new System.Drawing.Point(302, 39);
+            this.mainPanel.Location = new System.Drawing.Point(259, 32);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1001, 812);
+            this.mainPanel.Size = new System.Drawing.Size(858, 660);
             this.mainPanel.TabIndex = 3;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1303, 850);
+            this.ClientSize = new System.Drawing.Size(1117, 691);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.accordionControl1);
             this.Controls.Add(this.fluentDesignFormControl1);
             this.FluentDesignFormControl = this.fluentDesignFormControl1;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMain";
             this.NavigationControl = this.accordionControl1;
             this.Text = "Hệ thống quản lý bán hàng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentDesignFormControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.fluentFormDefaultManager1)).EndInit();
