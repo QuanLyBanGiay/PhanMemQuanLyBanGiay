@@ -43,13 +43,13 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.txt_SoLuongMua);
             this.panel1.Controls.Add(this.btn_Tang);
             this.panel1.Controls.Add(this.btn_Giam);
             this.panel1.Controls.Add(this.lbl_SoLuongTon);
             this.panel1.Controls.Add(this.lbl_GiaBan);
             this.panel1.Controls.Add(this.lbl_TenHangHoa);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -111,11 +111,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::DangNhapControl.Properties.Resources.back_ground_dang_nhap;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(206, 127);
-            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.Size = new System.Drawing.Size(206, 134);
+            this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
             // Layout_Item_SanPham

@@ -175,15 +175,22 @@
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhoHang.resx">
+      <DependentUpon>frm_KhoHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_LapHoaDon.resx">
       <DependentUpon>frm_LapHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_LapPhieuDichVu.resx">
       <DependentUpon>frm_LapPhieuDichVu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhaCungCap.resx">
+      <DependentUpon>frm_NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -216,8 +223,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\search.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
