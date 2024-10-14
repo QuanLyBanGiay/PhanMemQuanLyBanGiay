@@ -19,12 +19,18 @@ namespace GUI
             this.WindowState = FormWindowState.Maximized;
             this.btn_LapPhieuDichVu.Click += Btn_LapPhieuDichVu_Click;
             this.btn_Kho.Click += Btn_Kho_Click;
-            
+            this.btn_NhaCC.Click += Btn_NhaCC_Click;
+
+        }
+
+        private void Btn_NhaCC_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frm_NhaCungCap(), mainPanel);
         }
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            LoadForm(new frm_KhoHang(), mainPanel);
+            LoadForm(new frm_NhaCungCap(), mainPanel);
         }
 
         private void Btn_Kho_Click(object sender, EventArgs e)

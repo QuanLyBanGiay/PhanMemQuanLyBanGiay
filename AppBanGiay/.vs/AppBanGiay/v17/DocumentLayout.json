@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52582124-68CD-4492-9829-105337D87458}|BLL\\BLL.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\bll\\nhacungcap_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52582124-68CD-4492-9829-105337D87458}|BLL\\BLL.csproj|solutionrelative:bll\\nhacungcap_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_laphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_laphoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6AA136B5-7938-44A3-BDDF-E8800C5116B9}|DAL\\DAL.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\dal\\nhacungcap_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AA136B5-7938-44A3-BDDF-E8800C5116B9}|DAL\\DAL.csproj|solutionrelative:dal\\nhacungcap_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +26,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_KhoHang.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_KhoHang.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_KhoHang.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "NhaCungCap_DAL.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DAL\\NhaCungCap_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\NhaCungCap_DAL.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DAL\\NhaCungCap_DAL.cs",
+              "RelativeToolTip": "DAL\\NhaCungCap_DAL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:00:26.875Z",
+              "WhenOpened": "2024-10-14T15:23:59.769Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frm_NhaCungCap.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "NhaCungCap_BLL.cs",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\BLL\\NhaCungCap_BLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NhaCungCap_BLL.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\BLL\\NhaCungCap_BLL.cs",
+              "RelativeToolTip": "BLL\\NhaCungCap_BLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:24:19.087Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_NhaCungCap.cs",
               "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
               "RelativeDocumentMoniker": "GUI\\frm_NhaCungCap.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs [Design]",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
+              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:53:52.054Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-14T15:23:28.269Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -63,26 +80,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormMain.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs",
-              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\FormMain.cs [Design]",
-              "RelativeToolTip": "GUI\\FormMain.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "frm_NhaCungCap.cs [Design]",
+              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
+              "RelativeDocumentMoniker": "GUI\\frm_NhaCungCap.cs",
+              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs [Design]",
+              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:31:40.362Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_LapHoaDon.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\Frm_LapHoaDon.cs",
-              "RelativeDocumentMoniker": "GUI\\Frm_LapHoaDon.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\Frm_LapHoaDon.cs [Design]",
-              "RelativeToolTip": "GUI\\Frm_LapHoaDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:00:39.477Z",
+              "WhenOpened": "2024-10-14T15:27:35.043Z",
               "EditorCaption": " [Design]"
             }
           ]
