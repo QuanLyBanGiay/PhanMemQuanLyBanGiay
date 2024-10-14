@@ -16,7 +16,15 @@ namespace GUI
         {
             InitializeComponent();
             this.WindowState = FormWindowState.Maximized;
+            this.btn_LapPhieuDichVu.Click += Btn_LapPhieuDichVu_Click;
+            
         }
+
+        private void Btn_LapPhieuDichVu_Click(object sender, EventArgs e)
+        {
+            LoadForm(new frm_LapPhieuDichVu(), mainPanel);
+        }
+
         public void LoadForm(Form form, Panel panel)
         {
             // Đóng các form hiện tại trong panel

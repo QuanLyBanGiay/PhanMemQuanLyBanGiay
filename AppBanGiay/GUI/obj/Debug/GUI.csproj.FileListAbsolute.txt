@@ -84,3 +84,7 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DevExpress.
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.exe.licenses
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.Frm_LapHoaDon.resources
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuDichVu.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.FormMain.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapHoaDon.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuDichVu.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.exe.licenses

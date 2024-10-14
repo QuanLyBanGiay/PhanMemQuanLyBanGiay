@@ -22,5 +22,9 @@ namespace BLL
         {
             return dal.LayNhanVienByMaVaMatKhau(manv, matKhau);
         }
+        public NHANVIEN LayNhanVienByTenDangNhapVaMatKhau(string TenDangNhap, string matKhau)
+        {
+            return dal.LayNhanVienByTenDangNhapVaMatKhau(TenDangNhap, matKhau);
+        }
     }
 }

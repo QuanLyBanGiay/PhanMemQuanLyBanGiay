@@ -19,5 +19,9 @@ namespace DAL
         {
             return db.NHANVIENs.Where(nv => nv.MaNhanVien == manv && nv.MatKhau == matKhau).FirstOrDefault();
         }
+        public NHANVIEN LayNhanVienByTenDangNhapVaMatKhau(string TenDangNhap, string matKhau)
+        {
+            return db.NHANVIENs.Where(nv => nv.TenDangNhap == TenDangNhap && nv.MatKhau == matKhau).FirstOrDefault();
+        }
     }
 }
