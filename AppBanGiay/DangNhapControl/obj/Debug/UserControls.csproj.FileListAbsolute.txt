@@ -15,3 +15,21 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.pdb
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.dll.config
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserCont.3CCE6689.Up2Date
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DangNhapControl.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DangNhapControl.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\BLL.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DAL.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\BLL.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.dll.config
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DAL.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.AssemblyReference.cache
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.CauHinhControl.resources
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.DangNhapControl.resources
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.GenerateResource.cache
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserCont.3CCE6689.Up2Date
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources

@@ -16,3 +16,15 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.dll
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DAL.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DAL.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\CustomeControl.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\CustomeControl.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.pdb
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.dll.config
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.dll
+D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.pdb
