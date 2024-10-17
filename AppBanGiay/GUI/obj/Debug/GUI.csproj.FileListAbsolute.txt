@@ -90,3 +90,11 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.pdb
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_KhoHang.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhaCungCap.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_DichVu.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_DonDatHang.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_HoaDon.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_KhachHang.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuNhapHang.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuNhapKho.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapThongKeBaoCao.resources
+D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhanVien.resources

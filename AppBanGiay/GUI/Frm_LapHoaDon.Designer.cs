@@ -88,7 +88,7 @@
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1390, 67);
+            this.panel1.Size = new System.Drawing.Size(1588, 67);
             this.panel1.TabIndex = 6;
             // 
             // btn_Search
@@ -134,7 +134,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1390, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1588, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -188,7 +188,7 @@
             this.panel4.Location = new System.Drawing.Point(797, 74);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(595, 580);
+            this.panel4.Size = new System.Drawing.Size(793, 640);
             this.panel4.TabIndex = 8;
             // 
             // groupBox3
@@ -483,7 +483,7 @@
             this.panel_DanhSachSanPham.Location = new System.Drawing.Point(2, 74);
             this.panel_DanhSachSanPham.Margin = new System.Windows.Forms.Padding(2);
             this.panel_DanhSachSanPham.Name = "panel_DanhSachSanPham";
-            this.panel_DanhSachSanPham.Size = new System.Drawing.Size(791, 580);
+            this.panel_DanhSachSanPham.Size = new System.Drawing.Size(989, 640);
             this.panel_DanhSachSanPham.TabIndex = 7;
             // 
             // label1
@@ -501,7 +501,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1390, 650);
+            this.ClientSize = new System.Drawing.Size(1588, 710);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel_DanhSachSanPham);
             this.Controls.Add(this.panel1);
