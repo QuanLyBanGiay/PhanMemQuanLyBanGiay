@@ -175,6 +175,18 @@
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_DichVu.resx">
+      <DependentUpon>frm_DichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DonDatHang.resx">
+      <DependentUpon>frm_DonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HoaDon.resx">
+      <DependentUpon>frm_HoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhachHang.resx">
+      <DependentUpon>frm_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_KhoHang.resx">
       <DependentUpon>frm_KhoHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,8 +196,20 @@
     <EmbeddedResource Include="frm_LapPhieuDichVu.resx">
       <DependentUpon>frm_LapPhieuDichVu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_LapPhieuNhapHang.resx">
+      <DependentUpon>frm_LapPhieuNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LapPhieuNhapKho.resx">
+      <DependentUpon>frm_LapPhieuNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_LapThongKeBaoCao.resx">
+      <DependentUpon>frm_LapThongKeBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_NhaCungCap.resx">
       <DependentUpon>frm_NhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhanVien.resx">
+      <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -85,16 +85,16 @@ namespace GUI
             load();
             this.dgv_DanhSachNhaCungCap.Columns["MaNCC"].HeaderText = "Mã NCC";
             this.dgv_DanhSachNhaCungCap.Columns["TenNCC"].HeaderText = "Tên NCC";
-            this.dgv_DanhSachNhaCungCap.Columns["DiaChi"].HeaderText = "Địa chỉ";
-            this.dgv_DanhSachNhaCungCap.Columns["SoDienThoai"].HeaderText = "Số điện thoại";       
+            this.dgv_DanhSachNhaCungCap.Columns["DiaChi"].Visible = false;
+            this.dgv_DanhSachNhaCungCap.Columns["SoDienThoai"].Visible = false;  
             this.dgv_DanhSachNhaCungCap.Columns["DiaChiEmail"].Visible = false;
             this.txt_MaDonDatHang.Enabled = false;
             this.txt_MaNCC.Enabled = false;
         }
         private void setUp()
         {
-            this.dgv_DanhSachNhaCungCap.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;  
-            this.dgv_DanhSachDonDatHang.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;      
+            //this.dgv_DanhSachNhaCungCap.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;  
+            //this.dgv_DanhSachDonDatHang.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;      
             this.dgv_DanhSachNhaCungCap.ReadOnly = true;
         }
         private void clear()
