@@ -18,3 +18,10 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.dll
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.dll.config
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\bin\Debug\DTO.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DTO\obj\Debug\DTO.pdb

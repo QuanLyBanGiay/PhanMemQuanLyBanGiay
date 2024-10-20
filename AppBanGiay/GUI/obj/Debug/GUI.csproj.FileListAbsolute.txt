@@ -98,3 +98,39 @@ D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuNhapKho.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapThongKeBaoCao.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhanVien.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\GUI.exe.config
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\GUI.exe
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\GUI.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\BLL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\CustomeControl.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DangNhapControl.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DTO.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DAL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\BLL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\CustomeControl.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DangNhapControl.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DTO.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DTO.dll.config
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\bin\Debug\DAL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.FormMain.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_DangNhap.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_DichVu.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_DonDatHang.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_HoaDon.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_KhachHang.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_KhoHang.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapHoaDon.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuDichVu.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuNhapHang.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapPhieuNhapKho.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_LapThongKeBaoCao.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhaCungCap.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.frm_NhanVien.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.exe.licenses
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.csproj.Up2Date
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.exe
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\GUI\obj\Debug\GUI.pdb

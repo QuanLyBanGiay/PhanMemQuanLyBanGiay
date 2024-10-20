@@ -28,3 +28,15 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.dll
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DAL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DAL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\CustomeControl.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\CustomeControl.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\bin\Debug\DTO.dll.config
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DAL\obj\Debug\DAL.pdb

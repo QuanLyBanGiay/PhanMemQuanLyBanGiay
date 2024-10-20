@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\",
+  "WorkspaceRootPath": "D:\\HK7\\PTPM_AI\\PhanMenQuanLyBanGiay\\AppBanGiay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ptpm_ai\\phanmenquanlybangiay\\appbangiay\\gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\dangnhapcontrol\\datagirdviewcustomcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE0D29FA-928F-427C-AFD3-3D5203D11C0F}|DangNhapControl\\UserControls.csproj|solutionrelative:dangnhapcontrol\\datagirdviewcustomcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|d:\\hk7\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\phanmenquanlybangiay\\appbangiay\\gui\\frm_dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21A6F37C-A064-47DF-9709-0744F7B0545D}|GUI\\GUI.csproj|solutionrelative:gui\\frm_dichvu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataGirdViewCustomColor.cs",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\DataGirdViewCustomColor.cs",
-              "RelativeDocumentMoniker": "DangNhapControl\\DataGirdViewCustomColor.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\DangNhapControl\\DataGirdViewCustomColor.cs",
-              "RelativeToolTip": "DangNhapControl\\DataGirdViewCustomColor.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:51:17.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_NhaCungCap.cs",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_NhaCungCap.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs*",
-              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs*",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAQwFwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:47:25.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frm_NhaCungCap.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
+              "DocumentMoniker": "D:\\HK7\\PTPM_AI\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs",
               "RelativeDocumentMoniker": "GUI\\frm_NhaCungCap.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs [Design]*",
-              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs [Design]*",
+              "ToolTip": "D:\\HK7\\PTPM_AI\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_NhaCungCap.cs [Design]",
+              "RelativeToolTip": "GUI\\frm_NhaCungCap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:45:03.106Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_KhoHang.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_KhoHang.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_KhoHang.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_KhoHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:44:45.505Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frm_DichVu.cs [Design]",
-              "DocumentMoniker": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DichVu.cs",
-              "RelativeDocumentMoniker": "GUI\\frm_DichVu.cs",
-              "ToolTip": "D:\\HK7\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m \u1EE9ng d\u1EE5ng th\u00F4ng minh\\PhanMenQuanLyBanGiay\\AppBanGiay\\GUI\\frm_DichVu.cs [Design]",
-              "RelativeToolTip": "GUI\\frm_DichVu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T04:44:06.619Z",
+              "WhenOpened": "2024-10-20T15:45:56.134Z",
               "EditorCaption": " [Design]"
             }
           ]

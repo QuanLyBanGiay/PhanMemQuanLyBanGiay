@@ -35,3 +35,22 @@ D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug
 D:\Hoc\IT\HOCKY_7\PTPM\PhanMemQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources
 D:\HK7\Phát triển phần mềm ứng dụng thông minh\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Properties.Resources.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DangNhapControl.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DangNhapControl.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\BLL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DAL.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\BLL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DTO.dll.config
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\bin\Debug\DAL.pdb
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.AssemblyReference.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.CauHinhControl.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.DangNhapControl.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Layout_Item_SanPham.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.Properties.Resources.resources
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.GenerateResource.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\UserCont.3CCE6689.Up2Date
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.dll
+D:\HK7\PTPM_AI\PhanMenQuanLyBanGiay\AppBanGiay\DangNhapControl\obj\Debug\DangNhapControl.pdb
